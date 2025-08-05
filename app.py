@@ -60,11 +60,11 @@ def quote_product(sku, quantity):
     description = item.get("description", "No description")
 
     total_price = float(list_price) * quantity
-    return f"🧾 Quote for {quantity} x {sku}:
+    return f"""🧾 Quote for {quantity} x {sku}:
 - Description: {description}
 - Unit Price: ${list_price:.2f}
 - Total: ${total_price:.2f}
-- Availability: {availability}"
+- Availability: {availability}"""
 
 def suggest_replacement(sku):
     # Placeholder — Ingram does not offer public EOL API replacements.
