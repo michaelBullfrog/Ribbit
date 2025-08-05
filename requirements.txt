@@ -1,4 +1,0 @@
-flask
-webexteamssdk
-openai
-python-dotenv
